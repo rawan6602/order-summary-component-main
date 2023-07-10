@@ -49,35 +49,6 @@ table {
 *{
     box-sizing: border-box;
 }
-html,body,
-   #app{height: 100%; 
-}
+ 
 
 
-.change-button{
-    text-decoration:underline;
-    font-weight: 700;
-}
-.change-button:hover{
-    color: #766cf1;
-    text-decoration:none;
-}
-.purple-button{
-    color: #ffff;
-    font-weight: 700;
-    box-shadow: 5px 5px 30px 5px #d8d8fe;
-
-}
-.purple-button:hover{
-    background-color: #766cf1;
-}
-.cancel-button{
-    font-weight: 900;
-    font-size: 0.9em;
-    color:#7280A7 ;
-}
- .cancel-button:hover{
-    font-weight: 900;
-    color: hsl(223, 47%, 23%);
-    font-weight: 900;
- }

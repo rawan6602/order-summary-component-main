@@ -1,11 +1,11 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html class="h-full" lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">  <title>Order summary card</title>
   <style>
@@ -13,17 +13,16 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="bg-[#E0E8FF] font-body">
+<body class="bg-background font-body h-full bg-background-img bg-no-repeat bg-top-center bg-contain">
 
 <!-- the main component -->
-<img class="w-screen  absolute" src="images/pattern-background-desktop.svg"> 
-<main id="app" class="flex flex-col items-center justify-center ">
+<main id="app" class="flex flex-col items-center justify-center h-full">
 <!-- the card  -->
-<div class="relative	flex vertical-align:baseline; bg-[#FFFF] overflow-hidden rounded-3xl shadow-[5px_5px_40px_5px_#c6d2f8] max-w-md	">
+<div class="relative	flex vertical-align:baseline; bg-white overflow-hidden rounded-3xl shadow-[5px_20px_40px_5px_#c6d2f8] max-w-md	">
 <!-- card componant -->
 <div class="flex items-center flex-col  ">
   
-      <img alt="image" src="images/illustration-hero.svg ">
+      <img alt="image" src="/images/illustration-hero.svg ">
   
 <div class="p-12">
       <div class="flex flex-col ">
@@ -35,21 +34,21 @@
       </div>
       
       
-      <div class="flex place-items-center w-25 min-h-24.75 bg-[#f8f9fe] mt-6 py-7 rounded-xl">
-          <img class="pr-5 pl-5" src="images/icon-music.svg" alt="music-icon">
-          <div class="flex place-items-center">
+      <div class="flex place-items-center w-25 min-h-24.75 bg-pale-blue mt-6 p-7 rounded-xl ">
+          <img class="mr-5" src="/images/icon-music.svg" alt="music-icon">
+          <div class="flex place-items-center justify-between grow  ">
               <div>
-                <div class="font-bold pb-3 ">Annual Plan</div>
+                <div class="font-bold pb-3 text-dark-blue font-bold">Annual Plan</div>
                 <div class="text-light-blue">$59.99/year</div>
               </div>  
 
-              <button class="change-button text-primary justify-self-end">Change</button>
+              <button class=" text-primary justify-self-end underline decoration-1 font-bold text-sm hover:no-underline hover:text-hover">Change</button>
 
           </div>
       </div>
         <div class="flex flex-col pt-7">  
-          <button class=" purple-button bg-[#3829E0]  rounded-xl	p-5" >Proceed to Payment</button>
-          <button class="cancel-button text-light-blue pt-7">Cancel Order</button>
+          <button class="  bg-primary text-white rounded-xl	p-5 hover:bg-hover font-bold shadow-[0px_20px_20px_#d8d8fe] " >Proceed to Payment</button>
+          <button class="font-black text-sm	 text-light-blue pt-7 hover:text-dark-blue">Cancel Order</button>
         </div>
 </div>        
 </div>  
